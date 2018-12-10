@@ -64,7 +64,6 @@ for entry in "assignments"/*;do
 	echo "Number of txt files : $txtno"
 
 	otherno=$(find $directory -type f | wc -l)
-	echo $otherno
 	otherno=$((otherno - txtno))
 	echo "Number of other files :$otherno"
 
